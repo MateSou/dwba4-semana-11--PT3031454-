@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Entrar - IFSP - Pirituba</title>
+  <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon"> <!-- Adiciona o ícone de aba de navegador-->
+  <link rel="stylesheet" href="css/formularios.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/disabling.js"></script>
+</head>
+<body>
+  
+  <header id="cabecalho"> <!-- Indica o cabeçalho do nosso documento-->
+    <nav>
+      <object width="100%" height="200px" data="menu.html"></object>
+    </nav>    
+    
+  </header>
+  
+  <main> <!-- indica que é o conteúdo principal dessa página -->
+        <form method="POST">
+          <div class="container">
+            <img src="Imagens/ifsp.png" id="ifspLogoLogin" width="100"/>
+            <h3>Faça Login</h3>
+            <div>
+                <input type="text" name="usuario" id="entrar-usuario" required placeholder="Seu email"/>
+            </div>
+            <div>
+                <input type="password" name="senha" id="entrar-senha" required placeholder="Senha"/>
+            </div>
+            <br>
+            <div>
+              <a href="#">Esqueci a senha</a>
+              <br>
+                <input type="submit" value="Login">
+            </div>
+          </div>
+            
+        </form>
+  </main>
+  
+  <footer>     
+      <object width="100%" height="200px" data="rodape.html"></object>
+  </footer>
+
+</body>
+
+</html>
